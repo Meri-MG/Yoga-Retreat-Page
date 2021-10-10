@@ -85,6 +85,7 @@ h2 {
 	color: #fff;
 	align-self: center;
 	padding-top: 30px;
+	font-size: 20px;
 }
 
 hr {
@@ -98,6 +99,8 @@ hr {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	row-gap: 20px;
+	border: #fff;
 }
 
 .cards h4 {
@@ -125,6 +128,17 @@ hr {
 	display: flex;
 }
 
+.join-button {
+	background-color: #ec5242;
+	color: #fff;
+	padding: 25px 40px;
+	align-self: center;
+	margin: 40px 0;
+}
+
+.section-c {
+	display: none; 
+}
 
 @media (min-width: 730px){
 	/* header styles */
