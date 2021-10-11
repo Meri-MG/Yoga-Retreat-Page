@@ -258,13 +258,14 @@ hr {
 .logo-box img {
 	border-radius: 50%;
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 40px 0;
 }
 
 .logo-box p {
 	position: absolute;
-	left: 3%;
-	bottom: 5%;
+	top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .about-past h2 {
@@ -277,6 +278,11 @@ hr {
 	width: 100%;
 }
 
+.past-retreats-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
 .past-retreats {
 	position: relative;
 	margin-bottom: 20px;
@@ -285,6 +291,11 @@ hr {
 .past-retreats img { 
 	opacity: 0.5;
 	width: 100%;
+}
+
+.past-para {
+	margin: 0 auto;
+	padding: 40px 0;
 }
 
 .past-retreats p {
@@ -334,7 +345,7 @@ hr {
 	margin-right: 50px;
 }
 
-@media (min-width: 730px){
+@media (min-width: 800px){
 	/* header styles */
 
 	.hamburger {
@@ -449,6 +460,7 @@ hr {
 
   .mobile-hidden-para {
 	  display: flex;
+		line-height: 20px;
   }
 
 	.footer {
@@ -461,6 +473,33 @@ hr {
 
 	.footer-logo-main {
 		margin-right: 40px;
+	}
+
+	.about-headline {
+		padding: 40px 0;
+	}
+
+	.about-headline h1 {
+		width: 60%;
+		align-self: center;
+	}
+
+	.logo-info p {
+		width: 70%;
+		align-self: center;
+	}
+
+	.logo-info {
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	.past-retreats-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.past-retreats img { 
+		width: 90%;
 	}
 
 }
