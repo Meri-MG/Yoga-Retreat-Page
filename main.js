@@ -18,67 +18,70 @@ const hide_mobile = () => {
     }
 }
 
-const speaker = document.querySelector('.section-b');
+const speaker = document.querySelector('.flex-wrapper');
 
 let speakers = [
     {
-        id: '1',
         name: 'Adriene Mishler',
         occup: 'Yoga instructor',
         description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
         img: 'images/adriene.jpg',
     },
     {
-        id: '2',
-        name: 'Adriene Mishler',
+        name: 'Travis Eliot',
         occup: 'Yoga instructor',
         description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
-        img: 'images/adriene.jpg',
+        img: 'images/eliot.jpg',
     },
     {
-        id: '3',
-        name: 'Adriene Mishler',
+        name: 'Lauren Eckstrom',
         occup: 'Yoga instructor',
         description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
-        img: 'images/adriene.jpg',
+        img: 'images/lauren.jpg',
     },
     {
-        id: '4',
-        name: 'Adriene Mishler',
+        name: 'Janice Lennard',
         occup: 'Yoga instructor',
         description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
-        img: 'images/adriene.jpg',
+        img: 'images/Janice.png',
     },
     {
-        id: '5',
-        name: 'Adriene Mishler',
+        name: 'Karin Dimitrovova',
         occup: 'Yoga instructor',
         description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
-        img: 'images/adriene.jpg',
+        img: 'images/karin.jpg',
     },
     {
-        id: '6',
-        name: 'Adriene Mishler',
+        name: 'Zurius River',
         occup: 'Yoga instructor',
-        description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
-        img: 'images/adriene.jpg',
+        description: 'AGeorgian entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
+        img: 'images/Zurius.jpg',
     }
 ]
 
-function speakersContainer(obj, index){
-    let container = `<div class='speakers-wrapper'>
+
+function speakersContainer(obj){
+        return `<div class='speakers-wrapper'>
         <div class='img-wrapper'>
-            <img src='${obj[index].img}' alt='yoga-teacher'></img>
+            <img src='${obj.img}' alt='yoga-teacher'></img>
         </div>
         <div class='info-wrapper'>
-            <h2>${obj[index].name}</h2>
-            <p class="occup">${obj[index].occup}</p>
-            <hr class='obj-hr'/>
-            <p>${obj[index].description}</p>
+            <h2>${obj.name}</h2>
+            <p class='occupation'>${obj.occup}</p>
+            <div class='obj-hr'></div>
+            <p class='desc'>${obj.description}</p>
         </div>
     </div>`;
-    speaker.innerHTML += container;
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    for (let i = 0; i < speakers.length; i++){
+        speaker.innerHTML += speakersContainer(speakers[i]);
+    }
+})
+
+
+speakersContainer(speakers);
 
 
 show_mobile();
