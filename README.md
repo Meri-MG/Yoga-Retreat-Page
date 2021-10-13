@@ -3,8 +3,8 @@
 > The project is supposed to be personalized and the topic chosen is about fictional Yoga Retreat. Photos and Dates are not real. 
 > The project Design followed Cindy Shin's [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
-![Desktop Version](https://raw.github.com/Meri-MG/Capstone-Module-01/casptone/images/desktop.png)
-![Mobile Version](https://raw.github.com/Meri-MG/Capstone-Module-01/casptone/images/mobile.png)
+![Desktop Version](https://raw.github.com/Meri-MG/Capstone-Module-01/main/images/desktop.png)
+![Mobile Version](https://raw.github.com/Meri-MG/Capstone-Module-01/main/images/mobile.png)
 
 # Project contains several sections:
 
