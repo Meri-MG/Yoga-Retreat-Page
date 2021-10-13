@@ -48,13 +48,13 @@ let speakers = [
     {
         name: 'Karin Dimitrovova',
         occup: 'Yoga instructor',
-        description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
+        description: 'Czech entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
         img: 'images/karin.jpg',
     },
     {
         name: 'Zurius River',
         occup: 'Yoga instructor',
-        description: 'AGeorgian entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
+        description: 'Georgian entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
         img: 'images/Zurius.jpg',
     }
 ]

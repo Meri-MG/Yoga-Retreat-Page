@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -29,11 +29,11 @@ body {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 40px 0;
 	color: #272a31;
-	/* transition: all 0.3s ease-in-out; */
+	transition: all 0.3s ease-in-out;
 	align-self: flex-start;
 }
 
@@ -132,7 +132,7 @@ h2 {
 }
 
 .date {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 	color: #272a31;
 }
@@ -143,6 +143,12 @@ h2 {
 }
 
 /* section-a styles */
+
+.section-a {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .bg-repeat {
 	background-image: url(../images/repeat-bg.png);
 	background-repeat: repeat;
@@ -151,6 +157,7 @@ h2 {
 .cards-wrapper {
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .section-a h3 {
@@ -171,7 +178,7 @@ hr {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 20px 10px;
 	row-gap: 20px;
 	margin-bottom: 20px;
 	background-color: rgba(209, 209, 255, 0.1)
@@ -210,6 +217,8 @@ hr {
 	margin: 40px 0;
 }
 
+/* section-b styles */
+
 .section-b h3 {
 	color: #272a31;
 	font-weight: 700;
@@ -218,9 +227,67 @@ hr {
 	align-self: center;
 }
 
-.section-c,
-.footer {
-	display: none; 
+
+.section-b {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+.speakers-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 10px;
+	margin: 10px auto;
+	
+}
+
+.info-wrapper {
+	margin: 0 auto;
+}
+
+.info-wrapper h2 {
+	color: #272a31;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.occupation {
+	color: #ec5242;
+	font-size: 14px;
+}
+
+.obj-hr {
+	display: block;
+	width: 25px;
+	content: '';
+	background-color: #d3d3d3;
+	height: 1px;
+	margin: 10px 0;
+}
+
+.desc {
+	color: #272a31;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.img-wrapper {
+	margin: 0 auto;
+}
+
+.img-wrapper img {
+	width: 100%;
 }
 
 /* About page styles */
@@ -396,63 +463,8 @@ hr {
 	margin-right: 50px;
 }
 
-.section-b {
-	width: 80%;
-	margin: 0 auto;
-}
 
-.flex-wrapper {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 40px 0;
-}
-
-.speakers-wrapper {
-	display: flex;
-	flex-direction: row;
-	margin-right: 100px;
-	margin-bottom: 30px;
-}
-
-.info-wrapper {
-	align-self: flex-start;
-	width: 150px;
-	margin-left: 50px;
-}
-
-.info-wrapper h2 {
-	color: #272a31;
-	font-weight: 700;
-	font-size: 20px;
-}
-
-.occupation {
-	color: #ec5242;
-	font-size: 14px;
-}
-
-.obj-hr {
-	display: block;
-	width: 25px;
-	content: '';
-	background-color: #d3d3d3;
-	height: 1px;
-	margin: 10px 0;
-}
-
-.desc {
-	color: #272a31;
-	font-size: 14px;
-	line-height: 18px;
-}
-
-.img-wrapper img {
-	width: 200px;
-}
-
-@media (min-width: 800px){
+@media (min-width: 768px){
 	/* header styles */
 	.logo {
 		display: flex;
@@ -463,7 +475,7 @@ hr {
 	}
 
   .top-icons {
-    width: 80%;
+    width: 90%;
 		margin: 0 auto;
     display: flex;
     justify-content: flex-end;
@@ -479,6 +491,8 @@ hr {
     color: #fff;
   }
 
+	/* navigation styles */
+
   .nav-div {
 		background-color: #fff;
 		display: flex;
@@ -489,7 +503,7 @@ hr {
 	  display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 		padding: 10px 0;
   }
@@ -515,7 +529,7 @@ hr {
 		padding: 10px;
 	}
 
-	.nav li a:hover {
+	.nav-links li a:hover {
 		color: #ec5242;
 	  text-decoration: underline;
   }
@@ -536,7 +550,7 @@ hr {
 	.cards {
 		justify-content: center;
 		flex-direction: column;
-		margin-left: 20px;
+		margin-right: 20px;
 		text-align: center;
 	}
 
@@ -552,6 +566,8 @@ hr {
 	.join-button {
 		display: none;
 	}
+
+	/* section-c styles */
 
 	.section-c h3 {
 		color: #fff;
@@ -613,4 +629,17 @@ hr {
 		width: 90%;
 	}
 
+	
+.flex-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+.speakers-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: 10px auto;
+}
 }
