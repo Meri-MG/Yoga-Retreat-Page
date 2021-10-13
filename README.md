@@ -1,9 +1,10 @@
 # Capstone-Module-1
-> This is the capstone project of the Module 1. The project is supposed to be personalized and the topic chosen is about fictional Yoga Retreat. Photos and Dates are are not real. 
-The project Design followed Cindy Shin's [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+> This is the capstone project of the Module 1. 
+> The project is supposed to be personalized and the topic chosen is about fictional Yoga Retreat. Photos and Dates are not real. 
+> The project Design followed Cindy Shin's [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ![Desktop Version](https://raw.github.com/Meri-MG/Capstone-Module-01/casptone/images/desktop.png)
-![Mobile Version](https://raw.github.com/Meri-MG/Capstone-Module-01/casptone/images/monile.png)
+![Mobile Version](https://raw.github.com/Meri-MG/Capstone-Module-01/casptone/images/mobile.png)
 
 # Project contains several sections:
 
@@ -23,7 +24,7 @@ The project Design followed Cindy Shin's [template](https://www.behance.net/gall
 
 # Live Demo
 > Project live demo [link](https://meri-mg.github.io/Capstone-Module-01/);
-> video presentation [link]();
+> video presentation [link](https://www.loom.com/share/8f1add5499b944daa0f93166f62f895f);
 
 # Getting Started
 ## Prerequisites:
@@ -60,9 +61,9 @@ It should look similar to this git clone https://github.com/smithj/azure-docs.gi
 Give a ⭐ if you like this project!
 
 # Acknowledgments
-@Cindy Shin whose design template was used to create this project.
-@Unsplash for providing content related free pictures.
-Thanks to my teammates, learning and coding partners.
+- Cindy Shin whose design template was used to create this project.
+- Unsplash for providing content related free pictures.
+- Thanks to my teammates, learning and coding partners.
 
 
 # License
