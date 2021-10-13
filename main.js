@@ -12,8 +12,8 @@ const showMobile = () => {
 const hideMobile = () => {
   for (let i = 0; i < navLink.length; i += 1) {
     navLink[i].addEventListener('click', () => {
-    nav.classList.remove('nav-active');
-    hamburger.classList.remove('rotate');
+      nav.classList.remove('nav-active');
+      hamburger.classList.remove('rotate');
     });
   }
 };
