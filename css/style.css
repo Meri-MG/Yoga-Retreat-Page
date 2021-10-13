@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 
- /* header styles */
+/* header styles */
 
 .hamburger {
   display: flex;
@@ -111,7 +111,8 @@ body {
 .top-icons {
   display: none;
 }
- /* main section styles */
+
+/* main section styles */
 
 h1 {
   font-size: 35px;
@@ -395,6 +396,7 @@ hr {
 .past-retreats-wrapper {
   display: flex;
   flex-direction: column;
+	width: 100%;
 }
 
 .past-retreats {
@@ -459,7 +461,7 @@ hr {
 }
 
 @media (min-width: 768px) {
-	/* header styles */
+  /* header styles */
   .logo {
     display: flex;
     width: 50px;
@@ -487,7 +489,7 @@ hr {
     color: #fff;
   }
 
-	/* navigation styles */
+  /* navigation styles */
 
   .nav-div {
     background-color: #fff;
@@ -534,31 +536,31 @@ hr {
     padding: 40px 0;
   }
 
-	.cards-wrapper {
-		flex-direction: row;
-	}
+  .cards-wrapper {
+    flex-direction: row;
+  }
 
-	.cards {
-		justify-content: center;
-		flex-direction: column;
-		margin-right: 20px;
-		text-align: center;
-	}
+  .cards {
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: center;
+  }
 
-	.program-link {
-		display: flex;
-		color: #fff;
-		align-self: center;
-		text-decoration: underline;
-		padding: 40px 0;
-		text-transform: uppercase;
-	}
+  .program-link {
+    display: flex;
+    color: #fff;
+    align-self: center;
+    text-decoration: underline;
+    padding: 40px 0;
+    text-transform: uppercase;
+  }
 
-	.join-button {
-		display: none;
-	}
+  .join-button {
+    display: none;
+  }
 
-	/* section-c styles */
+  /* section-c styles */
 
   .section-c h3 {
     color: #fff;
@@ -614,10 +616,11 @@ hr {
   .past-retreats-wrapper {
     flex-direction: row;
     justify-content: space-between;
+		margin: 0 auto;
   }
 
   .past-retreats img {
-    width: 90%;
+    width: 95%;
   }
 
   .flex-wrapper {

@@ -1,16 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector(".mobile-links");
-const nav_link = document.querySelectorAll(".nav-link");
+const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('.mobile-links');
+const nav_link = document.querySelectorAll('.nav-link');
 
-const show_Mobile = () => {
+const showMobile = () => {
   hamburger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
     hamburger.classList.toggle('rotate');
   });
 };
 
-const hide_Mobile = () => {
-  for (let i = 0; i < nav_link.length; i += 1){
+const hideMobile = () => {
+  for (let i = 0; i < nav_link.length; i += 1) {
       nav_link[i].addEventListener('click', () => {
       nav.classList.remove('nav-active');
       hamburger.classList.remove('rotate');
@@ -21,7 +21,7 @@ const hide_Mobile = () => {
 const speaker = document.querySelector('.flex-wrapper');
 
 const speakers = [
-   {
+  {
     name: 'Adriene Mishler',
     occup: 'Yoga instructor',
     description: 'American entrepreneur, yoga teacher, and actress, who co-founded the online library of Yoga materials named ”Find What Feels Good.',
@@ -59,7 +59,7 @@ const speakers = [
   },
 ];
 
-function speakersContainer(obj){
+function speakersContainer(obj) {
   return `<div class='speakers-wrapper'>
         <div class='img-wrapper'>
             <img src='${obj.img}' alt='yoga-teacher'></img>
@@ -81,5 +81,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 speakersContainer(speakers);
 
-show_Mobile();
-hide_Mobile();
+showMobile();
+hideMobile();
