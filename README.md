@@ -24,7 +24,7 @@
 
 # Live Demo
 > Project live demo [link](https://meri-mg.github.io/Capstone-Module-01/);
-> video presentation [link](https://www.loom.com/share/8f1add5499b944daa0f93166f62f895f);
+> video presentation [link](https://www.loom.com/share/d907b1d3b40742dc86484e48899c7187);
 
 # Getting Started
 ## Prerequisites:
