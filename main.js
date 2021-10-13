@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.mobile-links');
-const nav_link = document.querySelectorAll('.nav-link');
+const navLink = document.querySelectorAll('.nav-link');
 
 const showMobile = () => {
   hamburger.addEventListener('click', () => {
@@ -10,10 +10,10 @@ const showMobile = () => {
 };
 
 const hideMobile = () => {
-  for (let i = 0; i < nav_link.length; i += 1) {
-      nav_link[i].addEventListener('click', () => {
-      nav.classList.remove('nav-active');
-      hamburger.classList.remove('rotate');
+  for (let i = 0; i < navLink.length; i += 1) {
+    navLink[i].addEventListener('click', () => {
+    nav.classList.remove('nav-active');
+    hamburger.classList.remove('rotate');
     });
   }
 };

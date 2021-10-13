@@ -396,7 +396,7 @@ hr {
 .past-retreats-wrapper {
   display: flex;
   flex-direction: column;
-	width: 100%;
+  width: 100%;
 }
 
 .past-retreats {
@@ -616,7 +616,7 @@ hr {
   .past-retreats-wrapper {
     flex-direction: row;
     justify-content: space-between;
-		margin: 0 auto;
+    margin: 0 auto;
   }
 
   .past-retreats img {
