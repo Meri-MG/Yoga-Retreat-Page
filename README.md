@@ -1,5 +1,5 @@
-# Capstone-Module-1
-> This is the capstone project of the Module 1. 
+# Yoga-Retreat
+> This is the work presented as a final project for the CSS/HTML module.
 > The project is supposed to be personalized and the topic chosen is about fictional Yoga Retreat. Photos and Dates are not real. 
 > The project Design followed Cindy Shin's [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
