@@ -23,7 +23,7 @@
 - VScode
 
 # Live Demo
-> Project live demo [link](https://meri-mg.github.io/Capstone-Module-01/);
+> Project live demo [link](https://meri-mg.github.io/Yoga-Retreat-Page/);
 > video presentation [link](https://www.loom.com/share/d907b1d3b40742dc86484e48899c7187);
 
 # Getting Started
